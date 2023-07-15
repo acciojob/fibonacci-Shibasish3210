@@ -4,6 +4,8 @@ function fibonacci(num) {
 
 	return fibonacci(num-2)+fibonacci(num-1);
 }
-// console.log(fibonacci(n));
+let a = prompt("Enter a number");
+let ans = fibonacci(a);
+alert("Your fib no. is "+ans);
 
 module.exports = fibonacci;
